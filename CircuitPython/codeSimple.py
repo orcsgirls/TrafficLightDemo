@@ -26,6 +26,7 @@ def walk_callback():
     if (not walk_signal_2.value and not isDaytime) or (not walk_signal_4.value and not isDaytime):
         print("Button pressed")
         night_sequence()
+        print("Night sequence done")
 
 # Car Signal Callback
 def car_callback():
@@ -34,6 +35,8 @@ def car_callback():
     if (not car_signal_2.value and not isDaytime) or (not car_signal_4.value and not isDaytime):
         print("Car detected")
         night_sequence()
+        print("Night sequence done")
+
 
 # Function to run night time traffic sequence
 def night_sequence():
@@ -61,7 +64,7 @@ def night_sequence():
     G_Main_St.value=True
 
     # Wait 5 seconds before allowing traffic light change again
-    time.sleep(5000)
+    time.sleep(5)
 
 # Function to run daytime traffic sequence
 def day_sequence():
