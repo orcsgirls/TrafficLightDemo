@@ -2,6 +2,7 @@
 
 Traffic light activity inspired by [this set](https://doc.eimtechnology.com/project-based-learning/smart-traffic-light).
 
+```
   Pins
   
   GP0   - Road lights
@@ -21,3 +22,4 @@ Traffic light activity inspired by [this set](https://doc.eimtechnology.com/proj
   GP10  - Pedestrian walk signal corner #4
 
   GP11  - Light sensor
+```
