@@ -23,3 +23,6 @@ Traffic light activity inspired by [this set](https://doc.eimtechnology.com/proj
 
   GP11  - Light sensor
 ```
+
+Please note, if you are using a web editor such as https://code.circuitpython.org/, make sure
+you disable the USB mass storage device mode using the file `boot.py`.
