@@ -58,3 +58,5 @@ traffic_light = TrafficLight(red, yellow, green)
 while True:
     traffic_light.cycle()
     print(traffic_light.current_state())
+
+
